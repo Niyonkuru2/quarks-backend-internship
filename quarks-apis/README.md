@@ -3,13 +3,12 @@
 A simple Node.js + Express REST API for user management.
 ## How To Start with this project
 
-clone this repository by
-clone [https://github.com/Niyonkuru2/quarks-backend-internship.git]
-cd quarks-apis
-npm install
-npm start
-Server will run at:[http://localhost:5689]
-
+- **clone this repository by:**
+git clone [https://github.com/Niyonkuru2/quarks-backend-internship.git]
+- **cd quarks-apis**
+- **npm install**
+- **npm start**
+- **Server will run at:[http://localhost:5689]**
 ## Endpoints
 
 ### POST `http://localhost:5689/users/register`
