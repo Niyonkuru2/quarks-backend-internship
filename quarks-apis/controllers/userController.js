@@ -2,7 +2,7 @@ import { validateUserInput } from "../utils/validateUser";
 import { createUser, getUserById } from "../models/validateUser.js"
 
 //function to create user
-function createUser(req,res){
+function registerUser(req,res){
 
 // validate user input
 const error = validateUserInput(req,body);
@@ -23,4 +23,4 @@ function getUser(req, res) {
   return res.json(user);
 }
 
-export { createUser, getUser };
+export { registerUser, getUser };
