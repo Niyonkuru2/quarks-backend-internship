@@ -1,4 +1,4 @@
-import { validateUserInput } from "../utils/validateUser";
+import { validateUserInput } from "../utils/validateUser.js";
 import { createUser, getUserById } from "../models/validateUser.js"
 
 //function to create user
