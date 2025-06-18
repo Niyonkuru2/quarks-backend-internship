@@ -6,7 +6,7 @@ A simple RESTful API built with **Node.js** and **Express** for basic user manag
 ##  Project Structure
 
 - Stores user data **in memory** (no database)
-- Provides endpoints to **create** and **retrieve** users
+- Provides endpoints to **create** and **retrieve** user Data 
 - Returns data in **JSON** format
 - Includes basic **input validation** and **error handling**
 
