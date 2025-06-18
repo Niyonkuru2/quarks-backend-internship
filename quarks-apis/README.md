@@ -53,7 +53,7 @@ npm start
 
 ```json
 {
-  "name": "John Doe",
+  "name": "John example",
   "email": "john@example.com"
 }
 ```
