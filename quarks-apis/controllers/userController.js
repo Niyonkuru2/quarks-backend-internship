@@ -9,7 +9,9 @@ const error = validateUserInput(req.body);
 if (error) return res.status(400).json({error});
 const {name,email} = req.body;
 
+//check if email of user is exist
 if (isEmailTaken(email)) {return res.status(409).json({success: false,message: 'User With This Email already exist.',});}
+
 //create user and save in memory
 const user = createUser(name,email);
 
