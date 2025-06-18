@@ -38,9 +38,7 @@ npm install
 ```bash
 npm start
 ```
-
-> The server will start on: [http://localhost:5689](http://localhost:5689)
-
+ The server will start on: [http://localhost:5689](http://localhost:5689)
 ---
 
 ## API Endpoints
@@ -118,5 +116,5 @@ npm start
 
 ## Contact
 
-* Editor NIYONKURU Samuel
+* Editor: NIYONKURU Samuel
 * For the Quarks Group Internship Technical Test – 2025
