@@ -107,7 +107,7 @@ npm start
 * UUID for user ID generation
 
 
-## Contact
+## Author
 
 * Editor: NIYONKURU Samuel
 * For the Quarks Group Internship Technical Test – 2025
