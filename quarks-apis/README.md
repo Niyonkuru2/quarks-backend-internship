@@ -101,7 +101,8 @@ npm start
 * Returns appropriate error messages for **missing or invalid input**.
 
 ## Tech Stack
-
+ 
+* Javascript Programming Language
 * Node.js
 * Express.js
 * UUID for user ID generation
