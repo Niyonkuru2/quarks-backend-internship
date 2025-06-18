@@ -2,7 +2,6 @@
 
 A simple RESTful API built with **Node.js** and **Express** for basic user management.
 
----
 
 ##  Project Structure
 
@@ -11,7 +10,6 @@ A simple RESTful API built with **Node.js** and **Express** for basic user manag
 - Returns data in **JSON** format
 - Includes basic **input validation** and **error handling**
 
----
 
 ## Getting Started
 
@@ -41,7 +39,6 @@ npm start
 
 > The server will start on: [http://localhost:5689](http://localhost:5689)
 
----
 
 ## API Endpoints
 
@@ -71,7 +68,6 @@ npm start
 }
 ```
 
----
 
 ### GET `/users/:id`
 
@@ -98,15 +94,11 @@ npm start
 }
 ```
 
----
-
 ##  Notes
 
 * User data is **not persisted** between server restarts.
 * Email must be **unique** — duplicate email registration returns a 409 error.
 * Returns appropriate error messages for **missing or invalid input**.
-
----
 
 ## Tech Stack
 
@@ -114,7 +106,6 @@ npm start
 * Express.js
 * UUID for user ID generation
 
----
 
 ## Contact
 
