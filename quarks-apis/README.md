@@ -109,5 +109,5 @@ npm start
 
 ## Author
 
-* Editor: NIYONKURU Samuel
+* Developer: NIYONKURU Samuel
 * For the Quarks Group Internship Technical Test – 2025
