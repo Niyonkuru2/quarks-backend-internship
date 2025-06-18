@@ -1,10 +1,10 @@
 import express from 'express'
-import { createUser, getUser } from '../controllers/userController';
+import { registerUser, getUser } from '../controllers/userController.js';
 
 const useRouter = express.Router();
 
 // Defining users routes for defined controllers
-useRouter.post('/',createUser);
+useRouter.post('/',registerUser);
 useRouter.get('/:id',getUser);
 
 export {useRouter};
