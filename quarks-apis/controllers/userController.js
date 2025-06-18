@@ -5,7 +5,7 @@ import { createUser, getUserById } from "../models/validateUser.js"
 function registerUser(req,res){
 
 // validate user input
-const error = validateUserInput(req,body);
+const error = validateUserInput(req.body);
 if (error) return res.status(400).json({error});
 const {name,email} = req.body;
 //create user and save in memory
