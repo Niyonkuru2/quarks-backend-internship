@@ -2,9 +2,9 @@
 # Quarks Group Internship - REST API Test
 A simple Node.js + Express REST API for user management.
 ## How To Start with this project
-- **clone this repository by:**
-[https://github.com/your-username/quarks-api.git]
-clone https://github.com/your-username/quarks-api.git
+
+clone this repository by
+clone [https://github.com/Niyonkuru2/quarks-backend-internship.git]
 cd quarks-apis
 npm install
 npm start
