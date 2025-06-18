@@ -19,4 +19,14 @@ function createUser(name,email){
 function getUserById(id){
     return users.get(id)
 }
-export {createUser,getUserById};
+
+//check if email already exists Before create new user
+function isEmailTaken(email) {
+  for (const user of users.values()) {
+    if (user.email === email) {
+      return true;
+    }
+  }
+  return false;
+}
+export {createUser,getUserById,isEmailTaken};
