@@ -1,5 +1,5 @@
 import { validateUserInput } from "../utils/validateUser.js";
-import { createUser, getUserById, isEmailTaken } from "../models/validateUser.js"
+import { createUser, getUserById, isEmailTaken } from "../models/userModel.js"
 
 //function to create user
 function registerUser(req,res){
