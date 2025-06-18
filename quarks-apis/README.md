@@ -13,7 +13,7 @@ A simple RESTful API built with **Node.js** and **Express** for basic user manag
 
 ---
 
-## 🛠️ Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 
@@ -118,5 +118,5 @@ npm start
 
 ## Contact
 
-Editor NIYONKURU Samuel
-For the Quarks Group Internship Technical Test – 2025
+* Editor NIYONKURU Samuel
+* For the Quarks Group Internship Technical Test – 2025
