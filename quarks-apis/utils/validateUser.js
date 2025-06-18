@@ -1,3 +1,5 @@
+import validator from 'validator'
+
 function validateUserInput(body){
     const {name,email} = body
 
@@ -10,6 +12,11 @@ if (!name || typeof name !== 'string') {
   if (!email || typeof email !== 'string') {
     return 'Email is required and must be a string.';
   }
+
+  //validating email format
+    if (!validator.isEmail(email))  {
+      return "enter a valid Email format"
+     }
   return null;
 }
 
