@@ -1,4 +1,4 @@
-import app from '../quarks-api/app.js'
+import app from '../quarks-apis/app.js'
 const PORT = 5689;
 
 //Listenning message on defined PORT
